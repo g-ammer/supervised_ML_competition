@@ -4,7 +4,7 @@ setup(
     name='src',
     packages=find_packages(),
     version='0.1.0',
-    description='A short description of the project.',
-    author='Marie Bocher',
+    description='supervised_ML_competition',
+    author='Georg Ammer',
     license='',
 )
