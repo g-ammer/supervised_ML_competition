@@ -11,7 +11,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
 
 import sklearn
 from sklearn.metrics import classification_report, confusion_matrix
@@ -28,9 +27,9 @@ from hyperopt import hp, fmin, tpe, STATUS_OK, Trials
 # In[2]:
 
 
-df_feat_test = pd.read_csv('../data/raw/features_test.csv')
-df_targ_train = pd.read_csv('../data/raw/target_train.csv')
-df_feat_train = pd.read_csv('../data/raw/features_train.csv')
+df_feat_test = pd.read_csv('./data/raw/features_test.csv')
+df_targ_train = pd.read_csv('./data/raw/target_train.csv')
+df_feat_train = pd.read_csv('./data/raw/features_train.csv')
 
 
 # In[4]:
@@ -51,6 +50,7 @@ X_test = X_test_raw.drop(columns = ['Id'])
 
 X_test.shape, X_train.shape, y_train.shape
 
+print('Debugging ongoing')
 
 # In[7]:
 
