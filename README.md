@@ -1,7 +1,7 @@
 supervised_ML_competition
 ==============================
 
-Data Challenge - Supervised ML for multi-class classification hosted by Constructor Academy
+Data Challenge - Supervised Machine Learning for multi-class classification hosted by Constructor Academy
 
 The purpose of this project was to train a supervised machine learning algorithm for a multi-class classification problem
 and achieve the highest f1_macro score possible. This competition was performed on kaggle and was part of the Data Science Bootcamp
